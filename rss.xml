@@ -2,24 +2,24 @@
 <rss version="2.0">
 	<channel>
 		<title>Bobix Gaming</title>
-		<link></link>
+		<link>https://bobixgaming.github.io/index.html</link>
 		<description>Game Descriptions for new gamers.</description>
 		<language>en-us</language>
 		<item>
 			<title>COVID-19 UPDATE</title>
-			<link></link>
+			<link>https://bobixgaming.github.io/index.html</link>
 			<description>Stay at home. Stay healthy.</description>
 			<author>bobixgamingict@gmail.com</author>
 		</item>
 		<item>
 			<title>Gameplay Gallery</title>
-			<link></link>
+			<link>https://bobixgaming.github.io/Gallery.html</link>
 			<description>Check out new gameplays every week.</description>
 			<author>bobixgamingict@gmail.com</author>
 		</item>
 		<item>
 			<title>Games</title>
-			<link></link>
+			<link>https://bobixgaming.github.io/Games.html</link>
 			<description>Check out new game descriptions every week.</description>
 			<author>bobixgamingict@gmail.com</author>
 		</item>

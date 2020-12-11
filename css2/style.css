@@ -36,8 +36,8 @@ nav{
 	font-family: Russo One, sans-serif;
 	display:flex;
 	overflow:hidden;
-	transition:0.7s all;
-	padding:14px 10px;
+	transition:0.5s all;
+	padding:14px 8px;
 }
 #menu li a:before{
 	content:'';
