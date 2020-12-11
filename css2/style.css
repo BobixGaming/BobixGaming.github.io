@@ -26,7 +26,6 @@ nav{
 	background-color:#003300;
 	margin:40px 3%;
 	float:left;
-	display:flex;
 }
 #menu li{
 	list-style:none;
