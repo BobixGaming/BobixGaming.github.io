@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>Bobix Gaming</title>
+		<link></link>
+		<description>Game Descriptions for new gamers.</description>
+		<language>en-us</language>
+		<item>
+			<title>COVID-19 UPDATE</title>
+			<link></link>
+			<description>Stay at home. Stay healthy.</description>
+			<author>bobixgamingict@gmail.com</author>
+		</item>
+		<item>
+			<title>Gameplay Gallery</title>
+			<link></link>
+			<description>Check out new gameplays every week.</description>
+			<author>bobixgamingict@gmail.com</author>
+		</item>
+		<item>
+			<title>Games</title>
+			<link></link>
+			<description>Check out new game descriptions every week.</description>
+			<author>bobixgamingict@gmail.com</author>
+		</item>
+	</channel>
+</rss>

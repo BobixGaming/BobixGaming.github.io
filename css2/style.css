@@ -1,0 +1,528 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+@font-face{
+	src:url(fonts/RussoOne-regular);
+	font-family:Russo One, sans-serif;
+}
+*hr{
+	color:#e0e0e0;
+}
+/* Index(Home) stranica*/
+article{
+	width:100%;
+	height:100%;
+	background-color:#080808;
+}
+header{
+	width:100%;
+	height:150px;
+	background-color:#003300;
+}
+#blok1{
+	width:35%;
+	height:40%;
+	background-color:#003300;
+	margin:40px 3%;
+	float:left;
+	display:flex;
+}
+#menu li{
+	list-style:none;
+	display:inline-flex;
+}
+#menu li a{
+	text-decoration:none;
+	position:relative;
+	color:#e0e0e0;
+	font-size:20px;
+	font-family: Russo One, sans-serif;
+	display:flex;
+	overflow:hidden;
+	transition:0.7s all;
+	padding:14px 10px;
+}
+#menu li a:before{
+	content:'';
+	width:60px;
+	position:absolute;
+	border-bottom:4px solid;
+	bottom: 0;
+	right:350px;
+	transition:0.7s all;
+}
+#menu li a:hover:before{
+	right:0;
+}
+#blok2{
+	width:21%;
+	height:70%;
+	background-color:#003300;
+	margin:25px auto;
+	float:left;
+	display:flex;
+}
+#blok2 img{
+	border: 3px solid #e0e0e0;
+	width:40%;
+	display:flex;
+	margin-left:15%;
+}
+#blok2 h2{
+	font-family: Russo One, sans-serif;
+	color:#e0e0e0;
+	font-size:22px;
+	display:flex;
+	width:90%;
+	margin:3%;
+}
+#blok11{
+	width:32%;
+	height:60px;
+	background-color:#003300;
+	margin:40px 3%;
+	float:left;
+	align-items:center;
+}
+.mreze a{
+	display:inline-block;
+	font-size:30px;
+	line-height:60px;
+	height:80px;
+	width:80px;
+	text-align:center;
+	color:#e0e0e0;
+	transition:.4s linear;
+	float:right;
+	margin:10px 5px;
+}
+.mreze a:hover{
+	transform:scale(.8);
+}
+.pozadina{
+	width:100%;
+	margin:0px auto;
+	background-image:url(../slike/slika4.jpg);
+	height:400px;
+}
+.pozadina h1{
+	color:#e0e0e0;
+	font-family: Russo One, sans-serif;
+	padding:30px 50px;
+	font-size:50px;
+}
+#region{
+	width:100%;
+	height:1200px;
+	background-color:#080808;
+	position:relative;
+}
+.blok3{
+	width:13%;
+	height:1100px;
+	background-color:#080808;
+	margin:50px 3.5%;
+	float:left;
+}
+.blok3 h1{
+	margin-top:25px;
+	margin-left:5px;
+	color:#e0e0e0;
+	font-size:55px;
+	font-family:Russo One, sans-serif;
+	float:left;
+}
+.blok3 ul{
+	list-style-type: square;
+	margin-top:100px;
+}
+.blok3 li a{
+	margin-left:10px;
+	text-decoration:none;
+	position:relative;
+	color:#d8d8d8;
+	font-size:15px;
+	font-family: Russo One, sans-serif;
+	display:block;
+	overflow:hidden;
+	transition:0.7s all;
+	padding:5px 5px;
+}
+.blok3 li a:before{
+	content:'';
+	width:66px;
+	position:absolute;
+	border-bottom:3px solid;
+	bottom: 0;
+	left:400px;
+	transition:1s all;
+}
+.blok3 li a:hover:before{
+	left:0;
+}
+#blok4{
+	width:60%;
+	height:1100px;
+	background-color:#080808;
+	margin:50px 3.5%;
+	float:left;
+	margin:50px auto;
+}
+#blok5{
+	width:96%;
+	height:200px;
+	background-color:#080808;
+	margin:2% 2%;
+	float:left;
+}
+#blok5 h1{
+	color:#e0e0e0;
+	text-align:center;
+	margin:70px;
+	font-family: Russo One, sans-serif;
+	font-size:50px;
+}
+.blok6{
+	width:96%;
+	height:390px;
+	background-color:#080808;
+	margin:2% 2%;
+	float:left;
+}
+.sadrzaj1{
+	width:46%;
+	height:90%;
+	background-color:#080808;
+	margin:2% 2%;
+	float:left;
+}
+.sadrzaj1 img{
+	width:100%;
+	border-radius: 8px;
+	border: 2px solid #e0e0e0;
+	padding: 5px;
+}
+.sadrzaj1 a{
+	color:#e0e0e0;
+	text-align:center;
+	font-family: Russo One, sans-serif;
+	font-size:35px;
+	text-decoration:none;
+	display:block;
+}
+.sadrzaj1 a:hover{
+	color:#00FF00;
+}
+.sadrzaj1 p{
+	color:#e0e0e0;
+	text-align:center;
+	font-family: Lato, sans-serif;
+	font-size:14px;
+	margin:5px 5px;
+}
+footer{
+	width:100%;
+	height:161px;
+	background-color:#003300;
+	text-decoration:none;
+}
+footer p{
+	color:#e0e0e0;
+	font-size:14px;
+	font-family: Lato, sans-serif;
+	text-align:center;
+	padding:30px;
+}
+footer a{
+	color:#e0e0e0;
+}
+footer a:hover{
+	color:#00FF00;
+}
+footer i{
+	margin:10px;
+	font-size:20px;
+}
+/* Games Stranica */
+#games{
+	width:100%;
+	height:2050px;
+	background-color:#080808;
+}
+.game{
+	width:96%;
+	height:25%;
+	background-color:#080808;
+	display:block;
+}
+.game-slika{
+	width:36%;
+	height:80%;
+	float:left;
+	background-color::#080808;
+	margin:3% 3% 1% 4%;
+}
+.game-slika img{
+	width:100%;
+	margin:6% 0%;
+	border-radius: 12px;
+	border: 3px solid #080808;
+	transition:.3s linear;
+}
+.game-slika img:hover{
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+	transform:scale(1.1);
+}
+.game-opis{
+	width:55%;
+	height:80%;
+	float:right;
+	background-color:#080808;
+	margin-top:3%;
+}
+.game-opis h2{
+	font-family:Russo One, sans-serif;
+	font-size:30px;
+	margin:22px 5px 5px 5px;
+	color:#e0e0e0;
+}
+.game-opis p{
+	font-family:Lato, sans-serif;
+	font-size:17px;
+	margin:5px;
+	color:#e0e0e0;
+}
+/* Stranica Login */
+#login{
+	width:100%;
+	height:1000px;
+	background-image:url(../slike/slika10.jpg);
+	font-family: Russo One, sans-serif;
+}
+.box{
+	width:400px;
+	height:350px;
+	padding:40px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	background:#191919;
+	text-align:center;
+	margin-top:150px;
+}
+.box h1{
+	color:#e0e0e0;
+	text-transform:uppercase;
+	font-weight:500;
+}
+.box input[type="text"],.box input[type="password"]{
+	border:0;
+	background:none;
+	display:block;
+	margin:20px auto;
+	text-align: center;
+	border: 2px solid #00FF00;
+	padding:14px 10px;
+	width:200px;
+	outline:none;
+	color:#e0e0e0;
+	border-radius:24px;
+	transition:0.25s;
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+	width:280px;
+	border-color:#00FF00;
+}
+.box input[type="submit"]{
+	border:0;
+	background:none;
+	display:block;
+	margin:20px auto;
+	text-align: center;
+	border: 2px solid #00FF00;
+	padding:14px 40px;
+	outline:none;
+	color:white;
+	border-radius:24px;
+	transition:0.25s;
+	cursor: pointer;
+}
+.box input[type="submit"]:hover{
+	background:#2ecc71;
+}
+.box p{
+	color:#e0e0e0;
+}
+/* Stranica Gallery */
+#galerija{
+	height:auto;
+	width:100%;
+	background-color:#080808;
+}
+#naslov1 h1{
+	color:#e0e0e0;
+	font-size:65px;
+	font-family:Russo One, sans-serif;
+	text-align:center;
+	margin:50px;
+}
+.naslov2 h2{
+	color:#e0e0e0;
+	font-size:40px;
+	font-family:Russo One, sans-serif;
+	margin:10px 54px;
+}
+.slike{
+	text-align:center;
+}
+.slike img{
+	width:30%;
+	margin:5px;
+	border-radius: 10px;
+	border: 2px solid #080808;
+	padding: 5px;
+	transition:.3s linear;
+}
+.slike img:hover{
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+	width:31%;
+	height:31%;
+	transform:scale(1.1);
+}
+/* Stranica About Me */
+#region3{
+	width:100%;
+	height:600px;
+	background-color:#080808;
+	display:flex;
+}
+#autor{
+	width:27%;
+	height:470px;
+	background-color:#080808;
+	margin-top:2.2%;
+	margin-bottom:2.2%;
+	margin-left:10%;
+	float:left;
+}
+#autor img{
+	height:470px;
+	float:right;
+	border-radius: 10px;
+	border: 2px solid #e0e0e0;
+	padding: 5px;
+}
+#biografija{
+	width:45%;
+	height:490px;
+	background-color:#080808;
+	margin:2.2%;
+	margin-left:15%;
+	float:left;
+}
+#biografija h1{
+	font-family:Castoro, serif;
+	font-size:40px;
+	margin-bottom:5px;
+	color:#e0e0e0;
+}
+#biografija h2{
+	font-family:Castoro, serif;
+	font-size:30px;
+	margin:4px;
+	color:#e0e0e0;
+}
+#biografija p{
+	font-size:20px;
+	margin:5px;
+	font-family: Castoro, serif;
+	color:#e0e0e0;
+}
+#biografija p a{
+	text-decoration:none;
+}
+#biografija h3{
+	font-family:Castoro, serif;
+	font-size:30px;
+	color:#e0e0e0;
+}
+.contact-info{
+	float:left;
+	width:100%;
+	font-family:Castoro, serif;
+	font-size:20px;
+}
+.contact-info i{
+	font-size:20px;
+	color:#e0e0e0;
+	float:left;
+	margin:10px;
+}
+#region2{
+	font-family:Russo One, sans-serif;
+	width:100%;
+	height:607px;
+	background-color:#000000;
+}
+.contact-section{
+	background:url(../slike/slika23.jpg);
+	background-size:cover;
+	padding:40px 0;
+}
+.contact-section h1{
+	text-align:center;
+	color:#ddd;
+}
+.border{
+	width:100px;
+	height:10px;
+	background-color:#34495e;
+	margin:40px auto;
+}
+
+.contact-form{
+	max-width:600px;
+	margin:auto;
+	padding:0 10px;
+	overflow:hidden;
+}
+
+.contact-form-text{
+	display:block;
+	width:100%;
+	box-sizing:border-box;
+	margin:16px 0;
+	border:0;
+	background:#111;
+	padding:20px 40px;
+	outline:none;
+	color:#e0e0e0;
+	transition:0.5s;
+}
+.contact-form-text:hover{
+	box-shadow:0 0 10px 4px #00FF00;
+}
+textarea.contact-form-text{
+	resize:none;
+	height:120px;
+}
+.contact-form-btn{
+	float:right;
+	border:0;
+	background:#34495e;
+	color:#fff;
+	padding:12px 50px;
+	border-radius:20px;
+	cursor:pointer;
+	transition:0.5s;
+}
+.contact-form-btn:hover{
+	background:#00FF00;
+}
+#header{
+	width:100%;
+	height:150px;
+	background-color:#003300;
+}
