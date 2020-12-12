@@ -89,12 +89,12 @@ nav{
 	text-align:center;
 	text-decoration:none;
 	color:#e0e0e0;
-	transition:.4s linear;
+	transition:.2s linear;
 	float:right;
 	margin:10px 5px;
 }
 .mreze a:hover{
-	transform:scale(.8);
+	transform:scale(1.2);
 }
 .pozadina{
 	width:100%;
@@ -111,8 +111,8 @@ nav{
 #region{
 	width:100%;
 	height:1200px;
-	background-color:#080808;
 	position:relative;
+	background-color:#080808;
 }
 .blok3{
 	width:13%;
@@ -168,16 +168,20 @@ nav{
 #blok5{
 	width:96%;
 	height:200px;
-	background-color:#080808;
+	background-image:url(../slike/slika31.jpg);
 	margin:2% 2%;
 	float:left;
 }
 #blok5 h1{
 	color:#e0e0e0;
 	text-align:center;
-	margin:70px;
+	margin:60px;
 	font-family: Russo One, sans-serif;
 	font-size:50px;
+	transition:.3s linear;
+}
+#blok5 h1:hover{
+	transform:scale(1.1);
 }
 .blok6{
 	width:96%;
@@ -355,9 +359,9 @@ footer i{
 }
 /* Stranica Gallery */
 #galerija{
-	height:auto;
+	height:1680px;
 	width:100%;
-	background-color:#080808;
+	background-image:url(../slike/slika31.jpg);
 }
 #naslov1 h1{
 	color:#e0e0e0;
@@ -440,6 +444,7 @@ footer i{
 }
 #biografija p a{
 	text-decoration:none;
+	color:#003300;
 }
 #biografija h3{
 	font-family:Castoro, serif;
