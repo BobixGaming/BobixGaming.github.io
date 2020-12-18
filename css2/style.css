@@ -422,6 +422,7 @@ footer i{
 	border-radius: 10px;
 	border: 2px solid #e0e0e0;
 	padding: 5px;
+	box-shadow: 16px 16px;
 }
 #biografija{
 	width:45%;
