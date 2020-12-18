@@ -64,6 +64,7 @@ nav{
 	width:40%;
 	display:flex;
 	margin:0px auto;
+	border-radius:6px;
 }
 #blok2 h1{
 	font-family: Russo One, sans-serif;
@@ -173,6 +174,7 @@ nav{
 	background-image:url(../slike/slika31.jpg);
 	margin:2% 2%;
 	float:left;
+	border-radius:15px;
 }
 #blok5 h4{
 	color:#e0e0e0;
