@@ -2,31 +2,31 @@
 <urlset xmlns="http://sitemaps.og/schemas/sitemap/0.9">
 	<url>
 		<loc>https://bobixgaming.github.io/index.html</loc>
-		<lastmod>2020-12-12</lastmod>
+		<lastmod>2021-12-12</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.95</priority>
 	</url>
 	<url>
 		<loc>https://bobixgaming.github.io/Games.html</loc>
-		<lastmod>2020-12-12</lastmod>
+		<lastmod>2021-12-12</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.9</priority>
 	</url>
 	<url>
 		<loc>https://bobixgaming.github.io/Gallery.html</loc>
-		<lastmod>2020-12-12</lastmod>
+		<lastmod>2021-12-12</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>https://bobixgaming.github.io/Aboutus.html</loc>
-		<lastmod>2020-12-12</lastmod>
+		<lastmod>2021-12-12</lastmod>
 		<changefreq>yearly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
 		<loc>https://bobixgaming.github.io/Login.html</loc>
-		<lastmod>2020-12-12</lastmod>
+		<lastmod>2021-12-12</lastmod>
 		<changefreq>yearly</changefreq>
 		<priority>0.5</priority>
 	</url>

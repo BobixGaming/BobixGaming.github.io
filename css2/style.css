@@ -39,6 +39,7 @@ nav{
 	overflow:hidden;
 	transition:0.5s all;
 	padding:14px 8px;
+	text-shadow:7px 7px #000000;
 }
 #menu li a:before{
 	content:'';
@@ -61,7 +62,7 @@ nav{
 
 }
 #blok2 img{
-	border: 3px solid #e0e0e0;
+	border: 1px solid #e0e0e0;
 	width:40%;
 	display:flex;
 	margin:0px auto;
@@ -93,6 +94,7 @@ nav{
 	transition:.2s linear;
 	float:right;
 	margin:10px 5px;
+	text-shadow:8px 8px #000000;
 }
 .mreze a:hover{
 	transform:scale(1.2);
@@ -100,7 +102,7 @@ nav{
 .pozadina{
 	width:100%;
 	margin:0px auto;
-	background-image:url(../slike/slika4.jpg);
+	background-image:url(../slike/pozadina.jpg);
 	height:400px;
 }
 .pozadina h2{
@@ -129,6 +131,7 @@ nav{
 	font-size:55px;
 	font-family:Russo One, sans-serif;
 	float:left;
+	text-shadow:15px 15px #000000;
 }
 .blok3 ul{
 	list-style-type: square;
@@ -171,11 +174,11 @@ nav{
 #blok5{
 	width:96%;
 	height:200px;
-	background-image:url(../slike/slika31.jpg);
+	background-image:url(../slike/pozadina1.jpg);
 	margin:2% 2%;
 	float:left;
 	border-radius:25px 5px 25px 5px;
-	box-shadow: 10px 10px;
+	box-shadow: 10px 10px #000000;
 }
 #blok5 h4{
 	color:#e0e0e0;
@@ -184,6 +187,7 @@ nav{
 	font-family: Russo One, sans-serif;
 	font-size:50px;
 	transition:.3s linear;
+	text-shadow:15px 15px #000000;
 }
 #blok5 h4:hover{
 	transform:scale(1.1);
@@ -274,7 +278,7 @@ footer i{
 	border-radius: 12px;
 	border: 3px solid #080808;
 	transition:.3s linear;
-	box-shadow: 13px 13px;
+	box-shadow: 13px 13px #000000;
 }
 .game-slika img:hover{
 	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
@@ -305,7 +309,7 @@ footer i{
 #login{
 	width:100%;
 	height:1000px;
-	background-image:url(../slike/slika10.jpg);
+	background-image:url(../slike/pozadina2.jpg);
 	font-family: Russo One, sans-serif;
 }
 .box{
@@ -392,7 +396,7 @@ footer i{
 	border: 2px solid #080808;
 	padding: 5px;
 	transition:.3s linear;
-	box-shadow:8px 8px;
+	box-shadow:8px 8px #000000;
 }
 .slike img:hover{
 	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
@@ -420,9 +424,9 @@ footer i{
 	height:100%;
 	float:right;
 	border-radius: 10px;
-	border: 2px solid #e0e0e0;
+	border: 1px solid #e0e0e0;
 	padding: 5px;
-	box-shadow: 16px 16px;
+	box-shadow: 16px 16px #000000;
 }
 #biografija{
 	width:45%;
@@ -475,7 +479,7 @@ footer i{
 	font-family:Russo One, sans-serif;
 	width:100%;
 	height:607px;
-	background:url(../slike/slika23.jpg);
+	background:url(../slike/pozadina3.jpg);
 	background-size:cover;
 }
 .contact-section{
